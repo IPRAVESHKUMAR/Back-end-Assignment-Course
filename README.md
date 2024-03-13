@@ -2,6 +2,8 @@
 A back-end spring boot API to create, update and get the courses from a database.
 
 
+
+
 END POINTS INFORMATION
 
    1. The create end point can only be used by the craetor. Upon entering the user role as "creator" the user will be able to create a course, otherwise the user will not be able to create a course.
@@ -14,6 +16,8 @@ END POINTS INFORMATION
        The student can get only the course record by its specific "id". Also not all fields of the asked course are provided to the student user role. Only necessary fields are provided to the student user role.
                 
        
+
+
 
 END POINTS  (Base end point : http://localhost:8080/course
 
@@ -45,7 +49,9 @@ END POINTS  (Base end point : http://localhost:8080/course
      
 
 
-FIELDs INFORMATION
+
+
+FIELDS INFORMATION
 
    1. The course fields should be of correct type as described below:
         name = String
@@ -60,6 +66,8 @@ FIELDs INFORMATION
   
   3. There can only be two course "learn_mode" as : "assisted" or "self learning"
        "learn_mode" is not case sensitive.
+
+
 
 
 PROJECT STRUCTURE
@@ -92,6 +100,8 @@ PROJECT STRUCTURE
         
 
 
+
+
 DEPENDENCIES
 
     - H2 Database Sql
@@ -99,10 +109,15 @@ DEPENDENCIES
     - lombok
     - spring data jpa
 
+
+
+
 FOR TESTING AND DEBUGGING
 
    1. Postman
    2. Internet Browser
+
+
 
 
 DATABASE INFORMATION

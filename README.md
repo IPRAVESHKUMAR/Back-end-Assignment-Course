@@ -106,8 +106,8 @@ FOR TESTING AND DEBUGGING
 
 
 DATABASE INFORMATION
-    To enable and use H2 database console use this url :        http://localhost:8080/h2-console
-    Default Password =
-    Default User Name =sa
-    Driver Class =org.h2.Driver
-    JDBC URL =jdbc:h2:mem:testdb
+   - To enable and use H2 database console use this url :        http://localhost:8080/h2-console
+   - Default Password =
+   - Default User Name =sa
+   - Driver Class =org.h2.Driver
+   - JDBC URL =jdbc:h2:mem:testdb
